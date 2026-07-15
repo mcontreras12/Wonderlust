@@ -48,6 +48,12 @@
 
                     404px, 920px, 1280px
                     -->
+                    <picture>
+                        <source media="(min-width: 1280px)" srcset="images/majorca-beach-horizontal-l.jpg">
+                        <source media="(max-width: 920px)" srcset="images/majorca-beach-vertical-m.jpg">
+                        <source media="(max-width: 404px)" srcset="images/majorca-beach-square-s.jpg">
+                        <img src="images/majorca-beach-square-s.jpg" alt="Majorca Beach">
+                    </picture>
                     <small>Photo by <a href="https://unsplash.com/@charliefirth?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Charlie Firth</a> on <a href="https://unsplash.com/photos/sea-waves-crashing-on-shore-during-sunset-HQJIQjXq1HI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
                 </div>
             </section>
@@ -101,6 +107,12 @@
                         images/miranda-blake-M.png 920w
                         images/miranda-blake-L.png 1280w
                     -->
+                        <picture>
+                            <source media="(max-width: 1280w)" srcset="images/miranda-blake-L.png">
+                            <source media="(min-width: 920w)" srcset="images/miranda-blake-M.png">
+                            <source media="(min-width: 404w)" srcset="images/miranda-blake-S.png">
+                            <img src="images/miranda-blake-S.png" alt="Miranda Blake testimonial image">
+                        </picture>
                         <div>
                         <h4>Miranda Blake</h4>
                         <dl>
@@ -117,6 +129,12 @@
                         images/max-winter-M.png 920w
                         images/max-winter-L.png 1280w
                     -->
+                        <picture>
+                            <source media="(max-width: 1280w)" srcset="images/max-winter-L.png">
+                            <source media="(min-width: 920w)" srcset="images/max-winter-M.png">
+                            <source media="(min-width: 404w)" srcset="images/max-winter-S.png">
+                            <img src="images/max-winter-S.png" alt="Max Winter testimonial picture">
+                        </picture>
                         <div>
                         <h4>Max Winter</h4>
                         <dl>
@@ -133,6 +151,12 @@
                         images/ines-villegoes-M.png 920w
                         images/ines-villegoes-L.png 1280w 
                     -->
+                        <picture>
+                            <source media="(max-width: 1280w)" srcset="images/ines-villegoes-L.png">
+                            <source media="(min-width: 920w)" srcset="images/ines-villegoes-M.png">
+                            <source media="(min-width: 404w)" srcset="images/ines-villegoes-S.png">
+                            <img src="images/ines-villegoes-S.png" alt="Ines Villegoes testimonial picture">
+                        </picture>
                     <div>
                         <h4>Inés Villegoes</h4>
                         <dl>
@@ -149,6 +173,12 @@
                         images/carmen-lorenzo-M.png 920w
                         images/carmen-lorenzo-L.png 1280w
                     -->
+                        <picture>
+                            <source media="(max-width: 1280w)" srcset="images/carmen-lorenzo-L.png">
+                            <source media="(min-width: 920w)" srcset="images/carmen-lorenzo-M.png">
+                            <source media="(min-width: 404w)" srcset="images/carmen-lorenzo-S.png">
+                            <img src="images/carmen-lorenzo-S.png" alt="Carmen Lorenzo testimonial picture">
+                        </picture>
                         <div>
                         <h4>Carmen Lorenzo</h4>
                         <dl>
@@ -283,7 +313,7 @@
                         <option>Flexible</option>
                     </select>
                 </fieldset>
-                <input type="submit" value="Submit">
+                <input type="submit" id="submit" value="Submit">
             </form>
             
         </section>
